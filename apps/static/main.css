@@ -1,0 +1,47 @@
+/* First block: Light green background with red text */
+.green-link {
+    display: block;
+    background-color: lightgreen;
+    color: red;
+    padding: 15px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+.green-link:visited { color: red; }
+.green-link:hover { background-color: green; color: white; }
+.green-link:active { background-color: yellow; color: black; }
+
+/* Second block: Gray background with yellow text */
+.gray-link {
+    display: block;
+    background-color: #666666; /* dark gray */
+    color: yellow;
+    padding: 15px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+.gray-link:visited { color: yellow; }
+.gray-link:hover { background-color: #999999; color: black; }
+.gray-link:active { background-color: orange; color: black; }
+
+/* Third block: Black background with white text */
+.black-link {
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: underline;
+}
+.black-link:visited { color: white; }
+.black-link:hover { background-color: #333333; color: lightblue; }
+.black-link:active { background-color: red; color: white; }
+
+h1 {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px 15px;
+    font-family: serif;
+}
